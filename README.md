@@ -11,3 +11,5 @@ FG 7.x using Ansible lib: 2.1.6
 https://ansible-galaxy-fortios-docs.readthedocs.io/en/galaxy-2.1.6/modules.html
 
 
+- Using dict
+https://www.mydailytutorials.com/the-basics-of-ansible-variables/
