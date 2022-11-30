@@ -20,3 +20,8 @@ https://www.mydailytutorials.com/the-basics-of-ansible-variables/
 
 - https://galaxy.ansible.com/geerlingguy
 - 
+
+
+### Command
+
+ ansible-galaxy collection list
