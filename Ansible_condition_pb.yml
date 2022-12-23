@@ -1,19 +1,13 @@
 ---
 - name: Install Nginx
   hosts: all
-  var: 
-    packages:
-      - name: nginx
-        required: True
-      - name: mysql
-        required: True
-      - name: apache
-        required: True
-        
   tasks:
-  - name: Install "{{ item.name  }}" on Server
-    apt:
-      name: "{{ item.name  }}"
-      state: present
-    when: item.required == True
-    loop: "{{ packages }}"
+  - name: checking http status
+    register: result
+    
+  - name: Email alert when service down
+    mail:
+      to: quandominh@gmail.com
+      subject: Service alert
+      body: HTTP service down
+      when: result.stdout.find("down") != -1

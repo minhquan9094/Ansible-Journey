@@ -1,0 +1,12 @@
+---
+- name: Get DB infor
+  hosts: localhost
+  tasks:
+  - name: Create user from loop
+    debugger: msg="DB= {{ item.database }} connection: {{item.connection_string}}"
+    with_mongodb:
+      - database: dev
+        connection_string: "mongodb://dev.mongo"
+      - database: pro
+        connection_string: "mongodb://pro.mongo"
+      
