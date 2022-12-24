@@ -14,6 +14,7 @@ https://ansible-galaxy-fortios-docs.readthedocs.io/en/galaxy-2.1.6/modules.html
 
 Using Ansible Dict
 https://www.mydailytutorials.com/the-basics-of-ansible-variables/
+https://docs.ansible.com/ansible/latest/playbook_guide/playbooks_loops.html#with-items
 
 
 ### Resource
