@@ -1,3 +1,0 @@
-[WindowsServer]
-Server-Test ansible_host=10.10.137.13 ansible_user="it_admin" ansible_password=""
-
