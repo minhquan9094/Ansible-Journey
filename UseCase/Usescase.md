@@ -22,3 +22,6 @@ https://shownotes.opensourceisawesome.com/yacht/
 ```
 Ive tested alot of dashboards like: Homer Dashboard, Heimdall, Organizr(v2), Flame, SUI. These dashboards where nice but not something i was looking for cause i just didnt fit. I advice everyone to get Dashy 
 ```
+
+
+
